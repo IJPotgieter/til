@@ -11,6 +11,12 @@ discrepancy with one command:
 $ git fetch origin --prune
 ```
 
+or
+
+```bash
+$ git fetch -p
+```
+
 This will prune all those non-existent remote tracking references which is
 sure to clean up your git log (`git log --graph`).
 
